@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.heading{
+  color:black;
+  font-family: "Trirong", sans-serif;
+  margin-bottom: 20px;
+  
+}
+
+.heading{
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.container{
+    box-shadow: 0 0 4px 1px rgb(216, 0, 0);
+    width: 400px;
+    height: 380px;
+    border-radius: 100px;
+    border
+    border-color: rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+    flex-direction: column;
+    background-color: rgb(0, 132, 255);
+}
+.container p{
+    color: rgb(20,94,82);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color : pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    /* background-color: rgb(255, 255, 255); */
+}
+.inputContainer label{
+    font-size: larger;
+}
+.inputContainer input{
+    border: 2px solid red;
+    outline: 1px ;
+    box-shadow: 0.1px 1px 2px 1px rgb(145, 140, 140);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: rgb(29, 195, 218); */
+}
